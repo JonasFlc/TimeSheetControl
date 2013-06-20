@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TimeSheetControl.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="idelTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="retroactive" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="activeTimeFrom" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)">08:00:00</Value>
+    </Setting>
+    <Setting Name="activeTimeTo" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)">19:00:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

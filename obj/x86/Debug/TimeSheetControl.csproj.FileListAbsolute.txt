@@ -1,0 +1,36 @@
+c:\users\jog\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.exe
+c:\users\jog\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.pdb
+c:\users\jog\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\jog\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Form1.resources
+c:\users\jog\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Properties.Resources.resources
+c:\users\jog\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\jog\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\jog\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.exe
+c:\users\jog\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.pdb
+C:\Users\JOG\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Forms.f_project.resources
+C:\Users\JOG\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Forms.F_Task.resources
+C:\Users\JOG\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Forms.F_Options.resources
+C:\Users\JOG\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.exe.config
+C:\Users\JOG\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.exe.manifest
+C:\Users\JOG\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.application
+C:\Users\JOG\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.exe.manifest
+C:\Users\JOG\documents\visual studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.application
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.exe.config
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.exe.manifest
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.application
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.exe
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\bin\Debug\TimeSheetControl.pdb
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Form1.resources
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Forms.F_Job.resources
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Forms.F_Options.resources
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Forms.F_Project.resources
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Forms.F_Sheet.resources
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Forms.F_Task.resources
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.Properties.Resources.resources
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.exe.manifest
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.application
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.exe
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Debug\TimeSheetControl.pdb
