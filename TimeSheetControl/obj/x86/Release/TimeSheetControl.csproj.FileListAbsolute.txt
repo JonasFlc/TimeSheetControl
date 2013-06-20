@@ -34,3 +34,6 @@ E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\o
 E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Release\TimeSheetControl.application
 E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Release\TimeSheetControl.exe
 E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Release\TimeSheetControl.pdb
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetCTRL\TimeSheetControl\bin\Release\TimeSheetControl.exe.config
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetCTRL\TimeSheetControl\obj\x86\Release\TimeSheetControl.exe
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetCTRL\TimeSheetControl\obj\x86\Release\TimeSheetControl.pdb
