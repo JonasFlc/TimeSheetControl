@@ -156,6 +156,6 @@ public class PropertyComparer<T> : IComparer<T>
         // todo; some null cases
         int value = Comparer.Default.Compare(property.GetValue(x),
         property.GetValue(y));
-        return descending ? -value : value;
+        return descending ? -value : -value;
     }
 }
