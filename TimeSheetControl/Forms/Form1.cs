@@ -330,6 +330,7 @@ namespace TimeSheetControl
             t_start.Enabled = false;
             t_stop.Enabled = true;
 
+            projectRepository.loadDailyTime(dateTimePicker1.Value);
             this.displayDataGrid(dateTimePicker1.Value);
 
         }
@@ -551,9 +552,11 @@ namespace TimeSheetControl
             }
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
 
+        private void tsl_report_Click(object sender, EventArgs e)
+        {
+            F_Report report_form = new F_Report();
+            report_form.ShowDialog(this);
         }
 
 

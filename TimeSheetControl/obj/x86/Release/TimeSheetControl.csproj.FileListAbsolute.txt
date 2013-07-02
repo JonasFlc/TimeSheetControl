@@ -37,3 +37,7 @@ E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\o
 E:\Mes documents\Visual Studio 2010\Projects\TimeSheetCTRL\TimeSheetControl\bin\Release\TimeSheetControl.exe.config
 E:\Mes documents\Visual Studio 2010\Projects\TimeSheetCTRL\TimeSheetControl\obj\x86\Release\TimeSheetControl.exe
 E:\Mes documents\Visual Studio 2010\Projects\TimeSheetCTRL\TimeSheetControl\obj\x86\Release\TimeSheetControl.pdb
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Release\TimeSheetControl.Forms.F_Edit.resources
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Release\RdlCompile.cache
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Release\RdlCompile.compiled
+E:\Mes documents\Visual Studio 2010\Projects\TimeSheetControl\TimeSheetControl\obj\x86\Release\TimeSheetControl.Forms.F_Report.resources

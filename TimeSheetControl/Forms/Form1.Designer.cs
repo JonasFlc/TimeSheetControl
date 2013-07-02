@@ -55,11 +55,8 @@
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.context1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.t_stop = new System.Windows.Forms.Button();
-            this.t_start = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.contextDataGrid = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -72,7 +69,13 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.idleTimer = new System.Windows.Forms.Timer(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.editToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.t_stop = new System.Windows.Forms.Button();
+            this.t_start = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsl_report = new System.Windows.Forms.ToolStripLabel();
             this.toolStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -105,7 +108,10 @@
             this.toolStripLabel5,
             this.toolStripSeparator5,
             this.toolStripSeparator6,
-            this.toolStripLabel3});
+            this.toolStripLabel3,
+            this.toolStripSeparator8,
+            this.toolStripSeparator9,
+            this.tsl_report});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(1149, 25);
@@ -115,7 +121,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(56, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(69, 22);
             this.toolStripLabel1.Text = "Add Project";
             this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
@@ -127,7 +133,7 @@
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(45, 22);
+            this.toolStripLabel2.Size = new System.Drawing.Size(56, 22);
             this.toolStripLabel2.Text = "Add Task";
             this.toolStripLabel2.Click += new System.EventHandler(this.toolStripLabel2_Click);
             // 
@@ -139,7 +145,7 @@
             // toolStripLabel4
             // 
             this.toolStripLabel4.Name = "toolStripLabel4";
-            this.toolStripLabel4.Size = new System.Drawing.Size(42, 22);
+            this.toolStripLabel4.Size = new System.Drawing.Size(50, 22);
             this.toolStripLabel4.Text = "Add Job";
             this.toolStripLabel4.Click += new System.EventHandler(this.toolStripLabel4_Click);
             // 
@@ -156,7 +162,7 @@
             // toolStripLabel5
             // 
             this.toolStripLabel5.Name = "toolStripLabel5";
-            this.toolStripLabel5.Size = new System.Drawing.Size(49, 22);
+            this.toolStripLabel5.Size = new System.Drawing.Size(60, 22);
             this.toolStripLabel5.Text = "Add sheet";
             this.toolStripLabel5.Click += new System.EventHandler(this.toolStripLabel5_Click);
             // 
@@ -173,7 +179,7 @@
             // toolStripLabel3
             // 
             this.toolStripLabel3.Name = "toolStripLabel3";
-            this.toolStripLabel3.Size = new System.Drawing.Size(37, 22);
+            this.toolStripLabel3.Size = new System.Drawing.Size(46, 22);
             this.toolStripLabel3.Text = "Refresh";
             this.toolStripLabel3.Click += new System.EventHandler(this.toolStripLabel3_Click);
             // 
@@ -188,7 +194,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(1149, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // fileToolStripMenuItem
             // 
@@ -197,37 +202,37 @@
             this.toolStripSeparator3,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(31, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.optionsToolStripMenuItem.Text = "Settings";
             this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(101, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(149, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(33, 20);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.editToolStripMenuItem.Text = "Edit";
             // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // splitContainer1
@@ -299,15 +304,21 @@
             this.deleteToolStripMenuItem,
             this.editToolStripMenuItem1});
             this.context1.Name = "context1";
-            this.context1.Size = new System.Drawing.Size(153, 70);
+            this.context1.Size = new System.Drawing.Size(108, 48);
             this.context1.Text = "Delete";
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
+            // 
+            // editToolStripMenuItem1
+            // 
+            this.editToolStripMenuItem1.Name = "editToolStripMenuItem1";
+            this.editToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
+            this.editToolStripMenuItem1.Text = "Edit";
             // 
             // splitContainer3
             // 
@@ -332,52 +343,6 @@
             this.splitContainer3.Size = new System.Drawing.Size(951, 417);
             this.splitContainer3.SplitterDistance = 28;
             this.splitContainer3.TabIndex = 0;
-            // 
-            // t_stop
-            // 
-            this.t_stop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.t_stop.Image = global::TimeSheetControl.Properties.Resources.Stop_icon1;
-            this.t_stop.Location = new System.Drawing.Point(128, 0);
-            this.t_stop.Name = "t_stop";
-            this.t_stop.Size = new System.Drawing.Size(35, 28);
-            this.t_stop.TabIndex = 4;
-            this.t_stop.UseVisualStyleBackColor = true;
-            this.t_stop.Click += new System.EventHandler(this.t_stop_Click_1);
-            // 
-            // t_start
-            // 
-            this.t_start.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.t_start.Image = global::TimeSheetControl.Properties.Resources.Play_icon1;
-            this.t_start.Location = new System.Drawing.Point(86, 0);
-            this.t_start.Name = "t_start";
-            this.t_start.Size = new System.Drawing.Size(36, 28);
-            this.t_start.TabIndex = 3;
-            this.t_start.UseVisualStyleBackColor = true;
-            this.t_start.Click += new System.EventHandler(this.t_start_Click_1);
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button2.Image = global::TimeSheetControl.Properties.Resources.backward_241;
-            this.button2.Location = new System.Drawing.Point(854, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(40, 20);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button1.Image = global::TimeSheetControl.Properties.Resources.forward_241;
-            this.button1.Location = new System.Drawing.Point(900, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(39, 20);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dateTimePicker1
             // 
@@ -419,12 +384,12 @@
             this.contextDataGrid.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.deleteToolStripMenuItem1});
             this.contextDataGrid.Name = "contextDataGrid";
-            this.contextDataGrid.Size = new System.Drawing.Size(98, 26);
+            this.contextDataGrid.Size = new System.Drawing.Size(108, 26);
             // 
             // deleteToolStripMenuItem1
             // 
             this.deleteToolStripMenuItem1.Name = "deleteToolStripMenuItem1";
-            this.deleteToolStripMenuItem1.Size = new System.Drawing.Size(97, 22);
+            this.deleteToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.deleteToolStripMenuItem1.Text = "Delete";
             this.deleteToolStripMenuItem1.Click += new System.EventHandler(this.deleteToolStripMenuItem1_Click);
             // 
@@ -489,11 +454,68 @@
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
-            // editToolStripMenuItem1
+            // t_stop
             // 
-            this.editToolStripMenuItem1.Name = "editToolStripMenuItem1";
-            this.editToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.editToolStripMenuItem1.Text = "Edit";
+            this.t_stop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.t_stop.Image = global::TimeSheetControl.Properties.Resources.Stop_icon1;
+            this.t_stop.Location = new System.Drawing.Point(128, 0);
+            this.t_stop.Name = "t_stop";
+            this.t_stop.Size = new System.Drawing.Size(35, 28);
+            this.t_stop.TabIndex = 4;
+            this.t_stop.UseVisualStyleBackColor = true;
+            this.t_stop.Click += new System.EventHandler(this.t_stop_Click_1);
+            // 
+            // t_start
+            // 
+            this.t_start.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.t_start.Image = global::TimeSheetControl.Properties.Resources.Play_icon1;
+            this.t_start.Location = new System.Drawing.Point(86, 0);
+            this.t_start.Name = "t_start";
+            this.t_start.Size = new System.Drawing.Size(36, 28);
+            this.t_start.TabIndex = 3;
+            this.t_start.UseVisualStyleBackColor = true;
+            this.t_start.Click += new System.EventHandler(this.t_start_Click_1);
+            // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.button2.Image = global::TimeSheetControl.Properties.Resources.backward_241;
+            this.button2.Location = new System.Drawing.Point(854, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(40, 20);
+            this.button2.TabIndex = 2;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.button1.Image = global::TimeSheetControl.Properties.Resources.forward_241;
+            this.button1.Location = new System.Drawing.Point(900, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(39, 20);
+            this.button1.TabIndex = 1;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
+            // 
+            // tsl_report
+            // 
+            this.tsl_report.Name = "tsl_report";
+            this.tsl_report.Size = new System.Drawing.Size(71, 22);
+            this.tsl_report.Text = "Show report";
+            this.tsl_report.Click += new System.EventHandler(this.tsl_report_Click);
             // 
             // Form1
             // 
@@ -578,6 +600,9 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
         private System.Windows.Forms.Label t_total_daily;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.ToolStripLabel tsl_report;
 
 
     }

@@ -81,6 +81,11 @@ namespace TimeSheetControl.Forms
             }
         }
 
+        private void F_Job_Load(object sender, EventArgs e)
+        {
+
+        }
+
        
 
       

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Win32;
+using System.Data;
 
 namespace TimeSheetControl
 {
@@ -51,5 +52,7 @@ namespace TimeSheetControl
             RegistryKey key = Registry.CurrentUser.CreateSubKey(RUN_LOCATION);
             key.DeleteValue(keyName);
         }
+
+
     }
 }

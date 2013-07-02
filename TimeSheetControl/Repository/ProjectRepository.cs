@@ -159,6 +159,12 @@ namespace TimeSheetControl.Repository
 
         public void loadMonthXml(Int32 month, Int32 year)
         {
+            this.sheets = loadMonthXmlSheets(month, year);
+            this.loadTreeNode();
+
+        }
+
+        public IList<Sheet> loadMonthXmlSheets(Int32 month, Int32 year) {
             sheets = new List<Sheet>();
 
             if (File.Exists(FileRepository.getInstance().appData + year.ToString("0000") + month.ToString("00") + @".xml"))
@@ -184,8 +190,6 @@ namespace TimeSheetControl.Repository
 
                     }
 
-
-
                 }
                 catch (Exception)
                 {
@@ -195,8 +199,7 @@ namespace TimeSheetControl.Repository
 
                 fs.Close();
             }
-            this.loadTreeNode();
-
+            return sheets;
         }
 
         public void loadDailyTime(DateTime date)
